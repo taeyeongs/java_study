@@ -29,6 +29,7 @@ public class CarEx {
 		System.out.println(car3.model);
 		System.out.println(car3.color);
 		System.out.println(car3.maxSpeed);
+		
 	}
 
 }
