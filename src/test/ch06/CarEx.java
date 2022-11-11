@@ -13,7 +13,7 @@ public class CarEx {
 //		System.out.println(myCar.start);
 		System.out.println(myCar.maxSpeed);
 		System.out.println(myCar.speed);
-//
+
 //		myCar.speed = 60;
 //		myCar2.speed = 70;
 //		System.out.println("수정된 값 myCar : " + myCar.speed);
