@@ -3,7 +3,7 @@ package test.ch06;
 public class CarEx {
 
 	public static void main(String[] args) {
-		// 1. 객체 생성
+		// 1. 객체 생성'
 		Car myCar = new Car("k6", "검정", 250);
 //		Car myCar2 = new Car();
 //
@@ -28,8 +28,7 @@ public class CarEx {
 		Car car3 = new Car("자가용" , "빨강");
 		System.out.println(car3.model);
 		System.out.println(car3.color);
-		System.out.println(car3.maxSpeed);
-		
+		System.out.println(car3.maxSpeed);		
 	}
 
 }
