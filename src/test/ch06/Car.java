@@ -10,6 +10,11 @@ public class Car {
 //	boolean start; //시동여부
 	int speed;
 
+	static int numbering = 0;
+	
+	Car() {
+		numbering ++;
+	}
 	Car(String model) {
 //		this.model = model;
 		this(model, "은색", 250);
