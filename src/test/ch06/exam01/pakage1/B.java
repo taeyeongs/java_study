@@ -1,9 +1,13 @@
 package test.ch06.exam01.pakage1;
 
 public class B {
-//	A a = new A(); //A클래스(default) 접근 가능
-	
-	A a1 = new A(true); // o
-	A a2 = new A(1); // o
-	A a3 = new A("d"); // X
+	public void method() {
+		A a = new A();
+		a.field1 = 1; //o
+		a.field2 = 1; //o
+		a.field3 = 1; //x
+		a.method1(); //o
+		a.method2(); //o
+		a.method3(); //x
+	}
 }
