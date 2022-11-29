@@ -17,5 +17,4 @@ public class AbastractEx {
 	public static void animalSound(Animal animal) {
 		animal.sound();
 	}
-
 }
