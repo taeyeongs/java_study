@@ -1,0 +1,32 @@
+[2.변수와 타입]
+1. boolean, char, short, int, long, float, double
+2. byte < char, short < int < long < float < double
+3. 12, 131, 51, 99, Java
+4. byte byteValue = 10;
+char charValue = 'A';
+
+1) int intValue = byteValue;
+2) int intValue = charValue;
+3) short shortValue = charValue; // 오류 short -215 ~215 char 0~216 둘이 달라서 자동 형변환이 안됨
+4) double doubleValue = byteValue;
+
+5. int intValue = 10;
+char charValue = 'A';
+double doubleValue = 5.7;
+String strValue = "A";
+
+1) double var = (double)intValue;
+2) byte var = (byte) intValue;
+3) int var = (int)doubleValue;
+4) char var = (char)srValue; // String은 클래스이고 char는 2byte로 정수로 이루어진 기본형 타입(primitive type)중에 하나이다.
+
+6. 1) byte result = byteValue + byteValue;  //둘다 int 형으로 변환되어 더해진다.
+7. 2)int var2 = Int.parseInt(str); // int value = Integer.parseInt(str)
+8. 13 v3 내부 변수, 16 v2 내부 변수
+9. -리터럴 10, 1.2, a -변수 : a, num, ch -키워드 int, double, char
+10.  1) byte b= 256; // byte(-128~127)의 범위를 넘는 값으로 초기화 할 수 없음
+    2) char c = ''; // char는 반드시 한개의 만자를 지정해야함
+    3) char answer = 'no'; //char 에 두개의 문자를 저장할 수 없음
+
+11. 4) i = (int)ch; // char(2 byte) int (4byte) -> 이므로 생략 가능
+
