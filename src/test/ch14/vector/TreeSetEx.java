@@ -32,16 +32,23 @@ public class TreeSetEx {
 			System.out.print(s + " "); //
 			
 		}
-		System.out.println(); //
+		System.out.println();
+		System.out.println();
+		System.out.println("---범위 검색(5 <= score)---");
 		//범위 검색(5 <= score)
 		//tailSet(값, boolean : 해당값의 포함 여부) : 주어진 값보다 높은 값을 가져온다.
 		NavigableSet<Integer> rangeSet = scores.tailSet(5, true);
 		for (Integer s : rangeSet) {
 			System.out.print(s + " "); 
 		}
-		
+		System.out.println();
+		System.out.println();
+		System.out.println("---범위 검색 (4 <= score <9)---");
 		//범위 검색 (4 <= score <9)
-	
+		rangeSet = scores.subSet(4, true, 9, false) ;
+		for (Integer s : rangeSet) {
+			System.out.print(s + " "); 
+		}
 	}
 
 }
