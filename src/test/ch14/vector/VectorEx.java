@@ -53,6 +53,9 @@ public class VectorEx {
 		}catch(Exception e) {
 			
 		}
+		for(int i = 0 ; i< list.size(); i++) {
+			System.out.println("list : " + list.get(i));
+		}
 		int size = list.size();
 		System.out.println("총 객체 수: " + size);
 		System.out.println();
